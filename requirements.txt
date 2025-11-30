@@ -9,3 +9,7 @@
 # With requirements.txt: 
 - One command to install everything: `pip install -r requirements.txt`
 - Ensures everyone uses same versions
+
+streamlit==1.28.0
+requests==2.31.0
+beautifulsoup4==4.12.2
