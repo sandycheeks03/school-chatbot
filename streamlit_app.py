@@ -1,8 +1,6 @@
 import streamlit as st
 import time
 import requests
-from bs4 import BeautifulSoup
-import random
 
 # Setup the page
 st.set_page_config(
