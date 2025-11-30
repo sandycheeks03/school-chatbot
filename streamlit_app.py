@@ -65,4 +65,4 @@ def get_school_response(user_input):
     
     # Greetings
     if any(word in user_input for word in ["hello", "hi", "hey"]):
-        return "Hello! 👋 I'm your AIU (African International University) assistants
+        return "Hello! 👋 I'm your AIU (African International University) assistant. How can I help you today?"

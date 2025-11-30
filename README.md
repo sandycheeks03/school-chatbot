@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-# AIU School Chatbot
-A Streamlit chatbot for African International University
+# 🏫 AIU School Chatbot
 
-## Run locally
-```bash
-pip install -r requirements.txt
-streamlit run school_chatbot.py
-```
-=======
-# 🏫 African International University Chatbot
-
-An intelligent chatbot built with Streamlit that provides comprehensive information about African International University (AIU). 
+A Streamlit chatbot for African International University that provides comprehensive information about courses, sports, clubs, admissions, and campus life.
 
 ## 🌟 Features
 
@@ -19,6 +9,7 @@ An intelligent chatbot built with Streamlit that provides comprehensive informat
 - **🏀 Sports & Athletics** - Team sports and facilities
 - **🎭 Student Clubs** - Extracurricular activities and organizations
 - **📝 Admissions Guidance** - Application process and requirements
+- **💰 Financial Information** - Tuition, scholarships, and payment plans
 - **🔍 Smart Responses** - Context-aware answers about campus life
 
 ## 🚀 Quick Start
@@ -30,12 +21,26 @@ An intelligent chatbot built with Streamlit that provides comprehensive informat
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/school-chatbot.git
+git clone https://github.com/sandycheeks03/school-chatbot.git
 cd school-chatbot
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the application
-streamlit run school_bot.py
->>>>>>> dd62a019ed344c7c9b92f3f9c98761bf79122d45
+streamlit run streamlit_app.py
+```
+
+## 📞 Contact AIU
+
+- **Phone:** +254 796 352 397 / +254 748 759 496
+- **Admissions:** +254 725 841 885
+- **Email:** admissions@aiu.edu
+- **Website:** www.aiu.ac.ke
+
+## 🛠️ Built With
+
+- Streamlit
+- Python
+- BeautifulSoup4
+- Requests
