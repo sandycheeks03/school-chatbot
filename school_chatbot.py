@@ -224,7 +224,8 @@ def get_school_response(user_input):
         )
 
 # Chat input
-if prompt := st.chat_input("Ask about African International University..."):
+prompt = st.chat_input("Ask about African International University...")
+if prompt:
     # Add user message to history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
@@ -240,4 +241,4 @@ if prompt := st.chat_input("Ask about African International University..."):
         st.write(response)
     
     # Add bot response to history
-    st.session_state.messages.append({"role": "assistant", "content": response})
+    st.session_state.messages.append({"role": "assistant", "content": response}) 
